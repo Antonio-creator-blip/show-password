@@ -4,10 +4,10 @@ function showPassword() {
     var x = document.getElementById("user");
     if (x.type === "password") {
       x.type = "text";
-      document.getElementById('eye').style.visibility = 'visible'; 
+      document.getElementById('eye').style.display = 'none'; 
     } else {
       x.type = "password";
-      document.getElementById('eye').style.visibility = 'hidden'; 
+      document.getElementById('eye').style.display = 'block'; 
     }
   }
 
