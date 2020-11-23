@@ -8,9 +8,21 @@ body{
 }
 
 div{
-    display: grid;
-    place-items: center;
+    display: flex;
+    flex-direction: column;
 }
 button{
     margin-top: 10px;
+}
+span{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+#eye{
+    display: block;
+    width: 25px;
+    align-items: center;
+    justify-content: center;
+    margin-left: 5px;
 }

@@ -9,8 +9,11 @@
 </head>
 <body>
     <div>
-        <input type="password" id="user" placeholder="Insert your password">
-        <button type="button" onclick="showPassword()">Show Password</button>
+        <span>
+            <input type="password" id="user" placeholder="Insert your password">
+            <img src="eye-look.svg" alt="" id="eye" onclick="javascript:showEye()">
+        </span>
+        <button onclick="showPassword()" id="button_show">Show Password</button>
     </div>
 </body>
 </html>
