@@ -1,2 +1,2 @@
 # show-password
-Don't show/ show password
+Hide / show password
